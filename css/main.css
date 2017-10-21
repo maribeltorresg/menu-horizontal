@@ -12,11 +12,13 @@ ul {
     list-style: none;
     line-height: 40px;
     margin: 0;
+    overflow: auto;
     padding: 0;
 }
 li {
     /* outline: 1px solid blue; */
-    display: inline-block;  
+    /* display: inline-block;   */
+    float: left;
     text-align: center;
     width: 100px;
 }
