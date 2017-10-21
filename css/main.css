@@ -12,12 +12,14 @@ ul {
     list-style: none;
     line-height: 40px;
     margin: 0;
+    /* Para que le devuelva su contexto de block para que pueda tener sus elementos flatantes */
     overflow: auto;
     padding: 0;
 }
 li {
     /* outline: 1px solid blue; */
     /* display: inline-block;   */
+    /* Si usamos (float) en su padre usar (overflow) */
     float: left;
     text-align: center;
     width: 100px;
